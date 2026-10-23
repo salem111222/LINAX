@@ -1,0 +1,31 @@
+{
+    "gemini_api_key": "AIzaSyA_CaywKFTCOoL3Xb3l9yzTU4mCXKB8pZY",
+    "os_system": "windows",
+    "voice_name": "Aoede",
+    "hud_style": "face",
+    "push_to_talk_enabled": false,
+    "morning_brief_enabled": true,
+    "providers": {
+        "creds": {
+            "whisper": {
+                "backend": "api",
+                "model": "whisper-1",
+                "base_url": "https://api.openai.com/v1",
+                "catalog": "openai",
+                "api_key": "",
+                "device": "cpu",
+                "language": "",
+                "download_root": ""
+            },
+            "openai_compat": {
+                "base_url": "http://127.0.0.1:11434/v1",
+                "max_tools": "14",
+                "max_tool_chars": "12000",
+                "catalog": "ollama",
+                "model": "",
+                "api_key": "",
+                "vision": ""
+            }
+        }
+    }
+}
